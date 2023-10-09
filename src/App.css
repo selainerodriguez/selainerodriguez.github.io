@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'Agrandir';
+  src: local('Agrandir'), url(./fonts/Agrandir-GrandHeavy.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Agrandir';
+  src: local('Agrandir'), url(./fonts/Agrandir-GrandLight.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Agrandir';
+  src: local('Agrandir'), url(./fonts/Agrandir-Narrow.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Agrandir';
+  src: local('Agrandir'), url(./fonts/Agrandir-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'AgrandirTextBold';
+  src: local('Agrandir'), url(./fonts/Agrandir-TextBold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Agrandir';
+  src: local('Agrandir'), url(./fonts/Agrandir-ThinItalic.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Agrandir';
+  src: local('Agrandir'), url(./fonts/Agrandir-Tight.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Agrandir';
+  src: local('Agrandir'), url(./fonts/Agrandir-WideBlackItalic.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Agrandir';
+  src: local('Agrandir'), url(./fonts/Agrandir-WideLight.otf) format('opentype');
+}

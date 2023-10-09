@@ -1,25 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import { Routes, Route } from "react-router-dom"
+import Home from './home.js';
+import Portfolio from './portfolio';
+import Teaching from './teaching';
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Selaine's React App Starter
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={ <Home/> } />
+        <Route path="portfolio" element={ <Portfolio/> } />
+        <Route path="teaching" element={ <Teaching/> } />
+      </Routes>
     </div>
-  );
+  )
 }
-
-export default App;
