@@ -14,6 +14,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `npm run deploy`
+
+This deploys the react app to gh-pages. Check out[this page](https://github.com/gitname/react-gh-pages) for
+more instructions.\
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
