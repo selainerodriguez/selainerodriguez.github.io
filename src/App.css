@@ -38,22 +38,22 @@
 }
 
 @font-face {
-  font-family: 'Agrandir';
+  font-family: 'AgrandirGrandHeavy';
   src: local('Agrandir'), url(./fonts/Agrandir-GrandHeavy.otf) format('opentype');
 }
 
 @font-face {
-  font-family: 'Agrandir';
+  font-family: 'AgrandirGrandLight';
   src: local('Agrandir'), url(./fonts/Agrandir-GrandLight.otf) format('opentype');
 }
 
 @font-face {
-  font-family: 'Agrandir';
+  font-family: 'AgrandirNarrow';
   src: local('Agrandir'), url(./fonts/Agrandir-Narrow.otf) format('opentype');
 }
 
 @font-face {
-  font-family: 'Agrandir';
+  font-family: 'AgrandirRegular';
   src: local('Agrandir'), url(./fonts/Agrandir-Regular.otf) format('opentype');
 }
 
@@ -63,21 +63,21 @@
 }
 
 @font-face {
-  font-family: 'Agrandir';
+  font-family: 'AgrandirThinItalic';
   src: local('Agrandir'), url(./fonts/Agrandir-ThinItalic.otf) format('opentype');
 }
 
 @font-face {
-  font-family: 'Agrandir';
+  font-family: 'AgrandirTight';
   src: local('Agrandir'), url(./fonts/Agrandir-Tight.otf) format('opentype');
 }
 
 @font-face {
-  font-family: 'Agrandir';
+  font-family: 'AgrandirBlackItalic';
   src: local('Agrandir'), url(./fonts/Agrandir-WideBlackItalic.otf) format('opentype');
 }
 
 @font-face {
-  font-family: 'Agrandir';
+  font-family: 'AgrandirWideLight';
   src: local('Agrandir'), url(./fonts/Agrandir-WideLight.otf) format('opentype');
 }

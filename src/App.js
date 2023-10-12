@@ -2,9 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 import { Routes, Route } from "react-router-dom"
-import Home from './home.js';
-import Portfolio from './portfolio';
-import Teaching from './teaching';
+import Home from './home/home.js';
+import Portfolio from './portfolio/portfolio';
+import Teaching from './teaching/teaching';
 
 export default function App() {
   return (
