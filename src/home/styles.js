@@ -8,6 +8,27 @@ const breakPoints = {
 };
 
 export const styles = StyleSheet.create({
+  aboutSubtitle: {
+    color: "#90839C",
+    fontFamily: "AgrandirTextBold",
+    fontSize: 25,
+    fontWeight: 600,
+  },
+  aboutTextBox: {
+    flexDirection: "column",
+    flexWrap: "wrap",
+    width: "100%",
+  },
+  aboutText: {
+    color: "#231f20",
+    fontFamily: "AgrandirRegular",
+    fontSize: 25,
+  },
+  aboutTitle: {
+    color: "#574369",
+    fontFamily: "AgrandirTextBold",
+    fontSize: 30,
+  },
   buttonRow: {
     flexDirection: "row",
   },
@@ -63,5 +84,11 @@ export const styles = StyleSheet.create({
       color: "#231f20",
       fontFamily: "AgrandirRegular",
       fontSize: 25,
+  },
+  sectionTitle: {
+    color: "#574369",
+    fontFamily: "AgrandirTextBold",
+    fontSize: 40,
+    margin: 20,
   }
 });

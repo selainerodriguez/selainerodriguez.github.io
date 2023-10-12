@@ -1,6 +1,4 @@
 import {
-  Image,
-  ScrollView,
   Text,
   TouchableOpacity,
   View,
@@ -73,82 +71,3 @@ export default function Intro() {
     </View>
   );
 }
-
-
-//   {/* Intro Box */}
-//   <View style={styles.introContainer}>
-//   <View style={styles.introTextBox}>
-//     {/* Text */}
-//     <View>
-//       <Text style={styles.introTitle}>Selaine Rodriguez</Text>
-//       <Text style={styles.introText}>
-//         Hey there! I'm currently a Master's Student at Stanford
-//         studying Computer Science -- specializing in Human Computer
-//         Interaction. I'm interested in education, accessibility, and
-//         game design.
-//       </Text>
-//     </View>
-
-//     {/* Contact Buttons */}
-//     <View style={styles.buttonGroup}>
-//       {/* Email */}
-//       <TouchableOpacity
-//         onPress={() =>
-//           onPressContactButton("mailto:selaine@stanford.edu")
-//         }
-//       >
-//         <Image
-//           style={styles.buttonSizing}
-//           source={require("./media/icons/email_icon.png")}
-//         />
-//       </TouchableOpacity>
-
-//       {/* LinkedIn */}
-//       <TouchableOpacity
-//         onPress={() =>
-//           onPressContactButton(
-//             "https://www.linkedin.com/in/selainerodriguez/"
-//           )
-//         }
-//       >
-//         <Image
-//           style={styles.buttonSizing}
-//           source={require("./media/icons/linkedin_icon.png")}
-//         />
-//       </TouchableOpacity>
-
-//       {/* Github */}
-//       <TouchableOpacity
-//         onPress={() =>
-//           onPressContactButton("https://github.com/selainerodriguez/")
-//         }
-//       >
-//         <Image
-//           style={styles.buttonSizing}
-//           source={require("./media/icons/github_icon.png")}
-//         />
-//       </TouchableOpacity>
-
-//       {/* Instagram */}
-//       <TouchableOpacity
-//         onPress={() =>
-//           onPressContactButton(
-//             "https://www.instagram.com/selaine.rdgz/"
-//           )
-//         }
-//       >
-//         <Image
-//           style={styles.buttonSizing}
-//           source={require("./media/icons/instagram_icon.png")}
-//         />
-//       </TouchableOpacity>
-//     </View>
-//   </View>
-
-//   {/* Profile Pic */}
-//   <Image
-//     style={styles.introPic}
-//     source={require("./media/intro_pic.JPG")}
-//   />
-// </View>
-
