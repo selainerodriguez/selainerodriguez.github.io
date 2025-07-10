@@ -39,7 +39,7 @@ export default function Intro() {
         <View style={styles.buttonRow}>
           {/* Email */}
           <TouchableOpacity
-            onPress={() => onPressContactButton("mailto:selaine@stanford.edu")}
+            onPress={() => onPressContactButton("mailto:selaine@alumni.stanford.edu")}
           >
             <img src={EmailLogo} style={styles.buttonSizing}/>
           </TouchableOpacity>
@@ -56,11 +56,11 @@ export default function Intro() {
             <img src={GithubLogo} style={styles.buttonSizing}/>
           </TouchableOpacity>
           {/* Instagram */}
-          <TouchableOpacity
+          {/* <TouchableOpacity
             onPress={() => onPressContactButton("https://www.instagram.com/selaine.rdgz/")}
           >
             <img src={InstagramLogo} style={styles.buttonSizing}/>
-          </TouchableOpacity>
+          </TouchableOpacity> */}
         </View>
       </View>
       <img 

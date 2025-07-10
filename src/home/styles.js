@@ -1,12 +1,5 @@
 import { StyleSheet } from "react-native";
 
-const breakPoints = {
-  tiny: '400px',
-  small: '600px',
-  medium: '800px',
-  large: '1000px',
-};
-
 export const styles = StyleSheet.create({
   aboutSubtitle: {
     color: "#90839C",
@@ -47,7 +40,7 @@ export const styles = StyleSheet.create({
 
   },
   introContainer: {
-    border: "2px solid black",
+    border: "1px solid black",
     flexDirection: "row",
     // justifyContent: "space-between",
     padding: "2%",
@@ -60,9 +53,7 @@ export const styles = StyleSheet.create({
   },
   introTextBox: {
     flexDirection: "column",
-    // flexWrap: "wrap",
     justifyContent: "space-between",
-    // minHeight: "400px",
     width: "70%",
   },
   nameTitle: {
@@ -79,6 +70,19 @@ export const styles = StyleSheet.create({
     // "@media only screen and (max-width: 1000px)": {
     //   fontSize: 40,
     // },
+  },
+  projectInfo: {
+    alignItems: "center",
+    flexDirection: "column",
+    width: "30%",
+  },
+  projectPic: {
+    boxShadow: "5px 5px 5px gray",
+    // height: "265px",
+    height: "100%",
+    objectFit: "contain",
+    width: "30%"
+    // width: "100px",
   },
   regularText: {
       color: "#231f20",
