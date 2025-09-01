@@ -64,16 +64,6 @@ export const styles = StyleSheet.create({
     color: "#574369",
     fontFamily: "AgrandirTextBold",
     fontSize: 50,
-
-    // TODO: Fix this
-    // "@media screen and (min-width: 600px)": {
-    //   backgroundColor: "red",
-    // },
-
-    // Add breakpoints for different sized screens
-    // "@media only screen and (max-width: 1000px)": {
-    //   fontSize: 40,
-    // },
   },
   projectContainer: {
     border: "1px solid black",
@@ -81,11 +71,51 @@ export const styles = StyleSheet.create({
     padding: "2%",
     width: "90%",
   },
+  projectCard: {
+    border: "1px solid black",
+    flexDirection: "column",
+    alignItems: "stretch",
+    marginBottom: 24,
+    width: "90%",
+  },
+  projectCardContent: {
+    padding: "2%",
+    alignItems: "center",
+  },
+  timelineFooter: {
+    width: "100%",
+    backgroundColor: "#574369",
+    color: "white",
+    padding: 10,
+    textAlign: "center",
+    fontFamily: "AgrandirTextBold",
+    fontSize: 20,
+  },
+  projectActionButtonRow: {
+    flexDirection: "row",
+    justifyContent: "center",
+    flexWrap: "wrap",
+    gap: 12,
+    marginTop: 12,
+  },
+  projectActionButton: {
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#90839C",
+    paddingVertical: 12,
+    paddingHorizontal: 24,
+  },
+  projectActionButtonText: {
+    color: "#fff",
+    fontFamily: "AgrandirTextBold",
+    fontSize: 20,
+    textAlign: "center",
+  },
   projectInfo: {
     flexDirection: "column",
     alignItems: "center",
     width: "30%",
-    marginBottom: 10, // add breathing room below each card
+    marginBottom: 10,
   },
   projectPic: {
     width: "100%",
