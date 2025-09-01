@@ -5,6 +5,7 @@ import { styles } from "./styles";
 import About from "./about";
 import Intro from "./intro";
 import Projects from "./projects";
+import Teaching from "./teaching";
 
 import NavBar from "../navBar";
 
@@ -18,6 +19,8 @@ export default function Home() {
         <About />
         <Text style={styles.sectionTitle}>Recent Projects</Text>
         <Projects />
+        <Text style={styles.sectionTitle}>Recent Teaching</Text>
+        <Teaching />
       </View>
     </ScrollView>
   );
