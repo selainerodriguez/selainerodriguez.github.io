@@ -14,7 +14,6 @@ import { projectsData } from "./projectsData";
 export default function Portfolio() {
   const { width } = useWindowDimensions();
   const isSmallScreen = width < breakPoints.small;
-  console.log("projectsData =", projectsData);
 
   // For up to 3 images, adjust appropriately
   function calculateImageWidth(images, isSmallScreen) {
