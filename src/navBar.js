@@ -73,7 +73,7 @@ export default function NavBar(props) {
       >
         TEACHING
       </Link>
-      <Link
+      {/* <Link
         style={
           props.page === "music"
             ? styles.navBarSelected
@@ -83,7 +83,7 @@ export default function NavBar(props) {
         onClick={() => setMenuOpen(false)}
       >
         MUSIC
-      </Link>
+      </Link> */}
       <Link
         style={styles.navBarUnselected}
         to="/Selaine-Rodriguez-CV-July-2025.pdf"

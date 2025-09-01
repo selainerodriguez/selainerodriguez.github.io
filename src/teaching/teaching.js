@@ -142,6 +142,36 @@ export default function TeachingPortfolio() {
                   ))}
                 </View>
               )}
+
+              {/* Buttons for honors thesis */}
+              {exp.buttons && exp.buttons.length > 0 && (
+                <View style={[styles.projectActionButtonRow]}>
+                  {exp.buttons.map((btn, j) => (
+                    <TouchableOpacity
+                      key={j}
+                      style={styles.projectActionButton}
+                      onPress={() => {
+                        if (btn.link.startsWith("/")) {
+                          window.location.href = btn.link;
+                        } else {
+                          window.open(btn.link, "_blank");
+                        }
+                      }}
+                    >
+                      <Text
+                        style={{
+                          ...styles.projectActionButtonText,
+                          fontWeight: "bold",
+                          color: "white",
+                          margin: "8px",
+                        }}
+                      >
+                        {btn.label}
+                      </Text>
+                    </TouchableOpacity>
+                  ))}
+                </View>
+              )}
             </View>
 
             {/* Timeline */}

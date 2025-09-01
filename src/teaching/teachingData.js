@@ -122,6 +122,28 @@ export const teachingData = [
     ],
   },
   {
+    id: "honorsThesis",
+    organization: "Stanford Graduate School of Education",
+    location: "Stanford, CA",
+    role: "Undergraduate Honors Thesis Researcher",
+    timeline: "September 2022 - June 2023",
+    description:
+      "Conducted an honors thesis on how marginalized students perceive and engage with cultural centers at Stanford, exploring identity, belonging, and inclusion through a mixed-methods approach.",
+    highlights: [
+      "Advised by Dr. Ramon Martinez and Dr. Ari Y. Kelman",
+      "Designed and administered surveys with both quantitative Likert-scale and qualitative open-ended questions",
+      "Identified key themes around community, cultural pride, intersectionality, and programming improvements",
+      "Bridged gaps in research on the role of cultural centers in fostering inclusion within elite institutions",
+    ],
+    images: ["/teaching/thesis.png"],
+    buttons: [
+      {
+        label: "Read Full Thesis",
+        link: "https://purl.stanford.edu/sh539kz3178",
+      },
+    ],
+  },
+  {
     id: "cs106",
     organization: "Stanford Computer Science Department",
     location: "Stanford, CA",
