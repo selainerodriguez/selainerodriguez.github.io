@@ -37,12 +37,10 @@ export const styles = StyleSheet.create({
     flexDirection: "column",
     height: "100vw",
     minHeight: "100vw",
-
   },
   introContainer: {
     border: "1px solid black",
     flexDirection: "row",
-    // justifyContent: "space-between",
     padding: "2%",
     width: "90%",
   },
@@ -55,6 +53,12 @@ export const styles = StyleSheet.create({
     flexDirection: "column",
     justifyContent: "space-between",
     width: "70%",
+  },
+  moreButton: {
+    alignItems: "center",
+    backgroundColor: "#90839C",
+    justifyContent: "center",
+    width: "100%",
   },
   nameTitle: {
     color: "#574369",
@@ -71,28 +75,33 @@ export const styles = StyleSheet.create({
     //   fontSize: 40,
     // },
   },
-  projectInfo: {
-    alignItems: "center",
+  projectContainer: {
+    border: "1px solid black",
     flexDirection: "column",
+    padding: "2%",
+    width: "90%",
+  },
+  projectInfo: {
+    flexDirection: "column",
+    alignItems: "center",
     width: "30%",
+    marginBottom: 10, // add breathing room below each card
   },
   projectPic: {
-    boxShadow: "5px 5px 5px gray",
-    // height: "265px",
-    height: "100%",
-    objectFit: "contain",
-    width: "30%"
-    // width: "100px",
+    width: "100%",
+    height: undefined,
+    aspectRatio: 1.5,
+    resizeMode: "contain",
   },
   regularText: {
-      color: "#231f20",
-      fontFamily: "AgrandirRegular",
-      fontSize: 25,
+    color: "#231f20",
+    fontFamily: "AgrandirRegular",
+    fontSize: 25,
   },
   sectionTitle: {
     color: "#574369",
     fontFamily: "AgrandirTextBold",
     fontSize: 40,
     margin: 20,
-  }
+  },
 });

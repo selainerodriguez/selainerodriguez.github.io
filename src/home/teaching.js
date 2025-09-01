@@ -1,6 +1,6 @@
 import { Text, TouchableOpacity, View } from "react-native";
 
-import Project from "./projectFeature";
+import Project from "./project";
 
 import { styles } from "./styles";
 
