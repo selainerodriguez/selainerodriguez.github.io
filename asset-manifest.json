@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.79aa6956.css",
-    "main.js": "/static/js/main.bd9fd7af.js",
+    "main.js": "/static/js/main.0ac99b57.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/selaine_2024.jpg": "/static/media/selaine_2024.b9cd4ebd1ee0a6cb13cb.jpg",
-    "static/media/taskTogether.png": "/static/media/taskTogether.cbb0d496032ea31836f6.png",
-    "static/media/crosswordGenerator.png": "/static/media/crosswordGenerator.68ab196becef6c2fe6b9.png",
+    "static/media/foodmarks.png": "/static/media/foodmarks.aac09b9a196d8502eb50.png",
+    "static/media/savedGroups.png": "/static/media/savedGroups.72f0bc40c1ae7fe87724.png",
+    "static/media/trumpetTutorial.png": "/static/media/trumpetTutorial.e4a1bb26943b96b82d4b.png",
     "static/media/Agrandir-GrandHeavy.otf": "/static/media/Agrandir-GrandHeavy.543cbb93e2f4479f4c39.otf",
     "static/media/Agrandir-TextBold.otf": "/static/media/Agrandir-TextBold.fd3a200fdcff3bfea9f6.otf",
     "static/media/Agrandir-ThinItalic.otf": "/static/media/Agrandir-ThinItalic.a6459debf6f33de1c224.otf",
@@ -21,11 +22,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.79aa6956.css.map": "/static/css/main.79aa6956.css.map",
-    "main.bd9fd7af.js.map": "/static/js/main.bd9fd7af.js.map",
+    "main.0ac99b57.js.map": "/static/js/main.0ac99b57.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79aa6956.css",
-    "static/js/main.bd9fd7af.js"
+    "static/js/main.0ac99b57.js"
   ]
 }
