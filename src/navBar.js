@@ -32,7 +32,7 @@ export default function NavBar(props) {
 
   const menuHeight = animation.interpolate({
     inputRange: [0, 1],
-    outputRange: [0, 120],
+    outputRange: [0, 160],
   });
 
   const menuOpacity = animation;
@@ -72,6 +72,17 @@ export default function NavBar(props) {
         onClick={() => setMenuOpen(false)}
       >
         TEACHING
+      </Link>
+      <Link
+        style={
+          props.page === "music"
+            ? styles.navBarSelected
+            : styles.navBarUnselected
+        }
+        to="/music"
+        onClick={() => setMenuOpen(false)}
+      >
+        MUSIC
       </Link>
       <Link
         style={styles.navBarUnselected}
