@@ -1,10 +1,4 @@
-import {
-  Image,
-  Text,
-  TouchableOpacity,
-  useWindowDimensions,
-  View,
-} from "react-native";
+import { Image, Text, useWindowDimensions, View } from "react-native";
 
 import { styles } from "./styles";
 import { breakPoints } from "../styles/global-styles";
