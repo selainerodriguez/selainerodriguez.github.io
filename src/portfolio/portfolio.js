@@ -32,7 +32,15 @@ export default function Portfolio() {
     <ScrollView>
       <View style={styles.container}>
         <NavBar page={"portfolio"} />
-        <Text style={styles.sectionTitle}>Portfolio</Text>
+        <Text
+          style={[
+            styles.sectionTitle,
+            { textAlign: "center" },
+            isSmallScreen && { marginTop: 0 },
+          ]}
+        >
+          Portfolio
+        </Text>
 
         {/* Welcome Section */}
         <View style={{ ...styles.introContainer, marginBottom: "16px" }}>
@@ -40,6 +48,7 @@ export default function Portfolio() {
             <Text
               style={[
                 styles.regularText,
+                { textAlign: "center" },
                 isSmallScreen && { fontSize: "18px" },
               ]}
             >

@@ -26,7 +26,15 @@ export default function TeachingPortfolio() {
     <ScrollView>
       <View style={styles.container}>
         <NavBar page={"teaching"} />
-        <Text style={styles.sectionTitle}>Teaching Experience</Text>
+        <Text
+          style={[
+            styles.sectionTitle,
+            { textAlign: "center" },
+            isSmallScreen && { marginTop: 0 },
+          ]}
+        >
+          Teaching Experience
+        </Text>
 
         {/* Intro Section */}
         <View style={{ ...styles.introContainer, marginBottom: "16px" }}>
@@ -34,11 +42,12 @@ export default function TeachingPortfolio() {
             <Text
               style={[
                 styles.regularText,
+                { textAlign: "center" },
                 isSmallScreen && { fontSize: "18px" },
               ]}
             >
-              Here’s a collection of my teaching and mentorship experiences,
-              ranging from university-level courses to community programs.
+              I've taught a little bit of everything, from university-level
+              courses to community programs. Check that out here!
             </Text>
           </View>
         </View>
