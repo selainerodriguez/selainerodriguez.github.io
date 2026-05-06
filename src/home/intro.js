@@ -34,9 +34,8 @@ function IntroDesktop() {
           <Text style={styles.regularText}>
             Hey there! I'm currently a Software Engineer at{" "}
             <Text style={{ fontWeight: "bold" }}>Uber</Text>. I graduated from{" "}
-            <Text style={{ fontWeight: "bold" }}>Stanford</Text> with a
-            bachelor's and master's degrees in Computer Science -- specializing
-            in{" "}
+            <Text style={{ fontWeight: "bold" }}>Stanford</Text> with bachelor's
+            and master's degrees in Computer Science -- specializing in{" "}
             <Text style={{ fontWeight: "bold" }}>
               Human Computer Interaction
             </Text>
@@ -61,7 +60,7 @@ function IntroDesktop() {
           <TouchableOpacity
             onPress={() =>
               onPressContactButton(
-                "https://www.linkedin.com/in/selainerodriguez/"
+                "https://www.linkedin.com/in/selainerodriguez/",
               )
             }
           >
@@ -150,7 +149,7 @@ function IntroMobile() {
           <TouchableOpacity
             onPress={() =>
               onPressContactButton(
-                "https://www.linkedin.com/in/selainerodriguez/"
+                "https://www.linkedin.com/in/selainerodriguez/",
               )
             }
           >

@@ -37,9 +37,10 @@ export default function Music() {
                 isSmallScreen && { fontSize: "18px" },
               ]}
             >
-              A showcase of my music work, including performances, compositions,
-              and collaborations. Explore recordings, scores, and highlights
-              from my journey as a musician.
+              This page is to showcase another passion of mine, music! I have
+              been playing the trumpet for about 15 years now, playing
+              classical, jazz, and now, mariachi. Here are photos, videos, and
+              compositions I have worked on over the years!
             </Text>
           </View>
         </View>
@@ -102,7 +103,7 @@ export default function Music() {
                           {
                             width: calculateImageWidth(
                               piece.images,
-                              isSmallScreen
+                              isSmallScreen,
                             ),
                           },
                         ]}

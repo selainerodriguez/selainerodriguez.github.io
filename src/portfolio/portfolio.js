@@ -53,7 +53,7 @@ export default function Portfolio() {
               ]}
             >
               Here's a recap of some of the projects I am the most proud on
-              since I started coding five years ago! Feel free to reach out if
+              since I started coding six years ago! Feel free to reach out if
               you have any specific questions about any of these!
             </Text>
           </View>
@@ -111,7 +111,7 @@ export default function Portfolio() {
                         {
                           width: calculateImageWidth(
                             proj.images,
-                            isSmallScreen
+                            isSmallScreen,
                           ),
                         },
                       ]}
