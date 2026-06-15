@@ -12,7 +12,7 @@ import {
 import { Link } from "react-router-dom";
 import { breakPoints } from "../src/styles/global-styles";
 
-export default function NavBar(props) {
+export default function NavBar({ page, scrolled = false, onLayout }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const { width } = useWindowDimensions();
 
@@ -42,9 +42,7 @@ export default function NavBar(props) {
     <>
       <Link
         style={
-          props.page === "home"
-            ? styles.navBarSelected
-            : styles.navBarUnselected
+          page === "home" ? styles.navBarSelected : styles.navBarUnselected
         }
         to="/"
         onClick={() => setMenuOpen(false)}
@@ -53,9 +51,7 @@ export default function NavBar(props) {
       </Link>
       <Link
         style={
-          props.page === "portfolio"
-            ? styles.navBarSelected
-            : styles.navBarUnselected
+          page === "portfolio" ? styles.navBarSelected : styles.navBarUnselected
         }
         to="/portfolio"
         onClick={() => setMenuOpen(false)}
@@ -64,9 +60,7 @@ export default function NavBar(props) {
       </Link>
       <Link
         style={
-          props.page === "teaching"
-            ? styles.navBarSelected
-            : styles.navBarUnselected
+          page === "teaching" ? styles.navBarSelected : styles.navBarUnselected
         }
         to="/teaching"
         onClick={() => setMenuOpen(false)}
@@ -97,7 +91,10 @@ export default function NavBar(props) {
   );
 
   return (
-    <View style={styles.navBarContainer}>
+    <View
+      style={[styles.navBarContainer, scrolled && styles.navBarScrolled]}
+      onLayout={(event) => onLayout?.(event.nativeEvent.layout.height)}
+    >
       {isSmallScreen ? (
         <>
           <View style={styles.mobileHeader}>
@@ -128,10 +125,24 @@ export default function NavBar(props) {
 
 const styles = StyleSheet.create({
   navBarContainer: {
+    backgroundColor: "#e0d8e7",
+    left: 0,
     paddingHorizontal: 20,
     paddingTop: 20,
     paddingBottom: 20,
+    position: "fixed",
+    right: 0,
+    top: 0,
     width: "100%",
+    zIndex: 100,
+  },
+  navBarScrolled: {
+    boxShadow: "0 2px 8px rgba(0, 0, 0, 0.12)",
+    elevation: 4,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.12,
+    shadowRadius: 8,
   },
   navBar: {
     flexDirection: "row",
