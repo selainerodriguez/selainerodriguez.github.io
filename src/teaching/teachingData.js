@@ -141,6 +141,10 @@ export const teachingData = [
         label: "Read Full Thesis",
         link: "https://purl.stanford.edu/sh539kz3178",
       },
+      {
+        label: "Google Scholar",
+        link: "https://scholar.google.com/citations?user=6zyhkssAAAAJ",
+      },
     ],
   },
   {
