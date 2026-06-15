@@ -29,12 +29,9 @@ export default function Projects() {
               }
         }
       >
+        <Project photo={"mealPlan"} text={"Uber Meal Plan"} />
         <Project photo={"savedGroups"} text={"Uber Saved Groups"} />
         <Project photo={"foodmarks"} text={"Foodmarks"} />
-        <Project
-          photo={"trumpetTutorial"}
-          text={"Trumpet Educational Explorable"}
-        />
       </View>
       <TouchableOpacity
         style={styles.moreButton}
