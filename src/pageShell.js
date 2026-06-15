@@ -20,11 +20,11 @@ export default function PageShell({ page, children }) {
       animated: false,
     });
 
-    fadeAnim.setValue(0);
+    fadeAnim.setValue(0.85);
 
     Animated.timing(fadeAnim, {
       toValue: 1,
-      duration: 250,
+      duration: 120,
       useNativeDriver: true,
     }).start();
   }, [location.pathname, fadeAnim]);
