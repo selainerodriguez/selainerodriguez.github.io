@@ -7,11 +7,9 @@ import Intro from "./intro";
 import Projects from "./projects";
 import Teaching from "./teaching";
 
-import PageShell from "../pageShell";
-
 export default function Home() {
   return (
-    <PageShell page="home">
+    <>
       <Intro />
       <Text style={styles.sectionTitle}>About Me</Text>
       <About />
@@ -19,6 +17,6 @@ export default function Home() {
       <Projects />
       <Text style={styles.sectionTitle}>Recent Teaching</Text>
       <Teaching />
-    </PageShell>
+    </>
   );
 }

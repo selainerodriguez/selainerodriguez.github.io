@@ -5,7 +5,6 @@ import {
   TouchableOpacity,
   useWindowDimensions,
 } from "react-native";
-import PageShell from "../pageShell";
 import { styles } from "../home/styles";
 import { breakPoints } from "../styles/global-styles";
 import { teachingData } from "./teachingData";
@@ -22,7 +21,7 @@ export default function TeachingPortfolio() {
   }
 
   return (
-    <PageShell page="teaching">
+    <>
       <Text
         style={[
           styles.sectionTitle,
@@ -183,6 +182,6 @@ export default function TeachingPortfolio() {
           )}
         </View>
       ))}
-    </PageShell>
+    </>
   );
 }
