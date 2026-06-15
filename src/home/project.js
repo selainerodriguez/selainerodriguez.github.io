@@ -6,7 +6,6 @@ import { breakPoints } from "../styles/global-styles";
 import MealPlanPic from "../images/projects/mealPlan.png";
 import SavedGroupsPic from "../images/projects/savedGroups.png";
 import FoodmarksPic from "../images/projects/foodmarks.png";
-import TrumpetTutorialPic from "../images/projects/trumpetTutorial.png";
 
 const nameToPic = {
   foodmarks: FoodmarksPic,

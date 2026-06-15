@@ -54,7 +54,7 @@ function IntroDesktop() {
               onPressContactButton("mailto:selaine@alumni.stanford.edu")
             }
           >
-            <img src={EmailLogo} style={styles.buttonSizing} />
+            <img src={EmailLogo} style={styles.buttonSizing} alt="Email" />
           </TouchableOpacity>
           {/* LinkedIn */}
           <TouchableOpacity
@@ -64,7 +64,11 @@ function IntroDesktop() {
               )
             }
           >
-            <img src={LinkedInLogo} style={styles.buttonSizing} />
+            <img
+              src={LinkedInLogo}
+              style={styles.buttonSizing}
+              alt="LinkedIn"
+            />
           </TouchableOpacity>
           {/* Github */}
           <TouchableOpacity
@@ -72,14 +76,14 @@ function IntroDesktop() {
               onPressContactButton("https://github.com/selainerodriguez/")
             }
           >
-            <img src={GithubLogo} style={styles.buttonSizing} />
+            <img src={GithubLogo} style={styles.buttonSizing} alt="Github" />
           </TouchableOpacity>
         </View>
       </View>
       <img
         src={SelainePic}
         style={styles.introPic}
-        alt="Selaine in White Dress in Stanford Main Quad"
+        alt="Selaine smiling while in a white shirt with black flowers, taken in the Stanford Cactus Garden"
       />
     </View>
   );
@@ -143,7 +147,7 @@ function IntroMobile() {
               onPressContactButton("mailto:selaine@alumni.stanford.edu")
             }
           >
-            <img src={EmailLogo} style={styles.buttonSizing} />
+            <img src={EmailLogo} style={styles.buttonSizing} alt="Email" />
           </TouchableOpacity>
           {/* LinkedIn */}
           <TouchableOpacity
@@ -153,7 +157,11 @@ function IntroMobile() {
               )
             }
           >
-            <img src={LinkedInLogo} style={styles.buttonSizing} />
+            <img
+              src={LinkedInLogo}
+              style={styles.buttonSizing}
+              alt="LinkedIn"
+            />
           </TouchableOpacity>
           {/* Github */}
           <TouchableOpacity
@@ -161,7 +169,7 @@ function IntroMobile() {
               onPressContactButton("https://github.com/selainerodriguez/")
             }
           >
-            <img src={GithubLogo} style={styles.buttonSizing} />
+            <img src={GithubLogo} style={styles.buttonSizing} alt="Github" />
           </TouchableOpacity>
         </View>
       </View>
