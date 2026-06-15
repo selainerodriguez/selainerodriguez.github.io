@@ -27,7 +27,7 @@ export default function PageShell({ page, children }) {
       duration: 250,
       useNativeDriver: true,
     }).start();
-  }, [location.pathname]);
+  }, [location.pathname, fadeAnim]);
 
   const handleScroll = ({ nativeEvent }) => {
     setScrolled(nativeEvent.contentOffset.y > 0);
