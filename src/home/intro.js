@@ -9,7 +9,7 @@ import { styles } from "./styles";
 import { breakPoints } from "../styles/global-styles";
 
 // Import Images
-import SelainePic from "../images/selaine_2024.jpg";
+import SelainePic from "../images/Selaine_2026.jpg";
 import EmailLogo from "../images/logos/email.png";
 import LinkedInLogo from "../images/logos/linkedin.png";
 import GithubLogo from "../images/logos/github.png";

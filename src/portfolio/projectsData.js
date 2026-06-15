@@ -1,12 +1,31 @@
 export const projectsData = [
   {
+    id: "mealPlan",
+    title: "Uber - Meal Plan",
+    images: [
+      "/portfolio/mealplan_1.png",
+      "/portfolio/mealplan_2.png",
+      "/portfolio/mealplan_3.png",
+    ],
+    description:
+      "Engineered the front-end components and API integrations that power Uber's automated corporate meals tool, allowing organizations to seamlessly manage budgets, schedules, and menus while empowering employees to select their own meals.",
+    tools: ["TypeScript", "React", "RPC"],
+    timeline: "September 2025 - Present",
+    buttons: [
+      {
+        label: "Try on Uber",
+        link: "https://www.uber.com/us/en/blog/meal-planning/",
+      },
+    ],
+  },
+  {
     id: "savedGroups",
     title: "Uber - Saved Groups",
     images: ["/portfolio/savedGroups.png"],
     description:
       "New feature that allows users to create personal or business groups, and subsequently book group rides / orders, or share payment with other members.",
     tools: ["TypeScript", "React", "Figma"],
-    timeline: "January 2025 - Present",
+    timeline: "January 2025 - June 2025",
     buttons: [
       { label: "Try on Uber", link: "https://mbiz.uber.com/groups/ftux" },
     ],

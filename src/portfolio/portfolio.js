@@ -24,7 +24,7 @@ export default function Portfolio() {
     if (images.length < 3) {
       return 400;
     } else {
-      return 250;
+      return 300;
     }
   }
 
