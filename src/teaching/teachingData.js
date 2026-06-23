@@ -31,6 +31,12 @@ export const teachingData = [
       "Honored for contributions to undergraduate education, community, and student life.",
     ],
     images: ["/teaching/dinkelspiel.png"],
+    buttons: [
+      {
+        label: "Stanford Report Article",
+        link: "https://news.stanford.edu/stories/2024/06/cuthbertson-dinkelspiel-and-gores-award-winners-announced",
+      },
+    ],
   },
   {
     id: "centennial",
@@ -45,6 +51,12 @@ export const teachingData = [
       "I was 1 of 20 TAs in the School of Engineering, and 1 of 6 TAs in the Computer Science department to receive this award.",
     ],
     images: ["/teaching/cta_1.JPG", "/teaching/cta_2.jpeg"],
+    buttons: [
+      {
+        label: "List of Winners",
+        link: "https://ctl.stanford.edu/grad-teaching/ta-award/winners#2024-winners",
+      },
+    ],
   },
   {
     id: "cs278",
@@ -74,6 +86,12 @@ export const teachingData = [
       "Supported a class of 255 students",
     ],
     images: ["/teaching/cs107.png"],
+    buttons: [
+      {
+        label: "Course Website",
+        link: "https://web.stanford.edu/class/archive/cs/cs107/cs107.1244/index.html",
+      },
+    ],
   },
   {
     id: "cs148",
