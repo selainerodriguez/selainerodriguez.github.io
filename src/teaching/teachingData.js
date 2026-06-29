@@ -176,6 +176,12 @@ export const teachingData = [
       "/teaching/ssea_2.png",
       "/teaching/ssea_3.png",
     ],
+    buttons: [
+      {
+        label: "SSEA Website",
+        link: "https://engineering.stanford.edu/students-academics/student-success-and-engagement/undergraduate-programs/stanford-summer",
+      },
+    ],
   },
   {
     id: "honorsThesis",
@@ -217,6 +223,16 @@ export const teachingData = [
       "Taught introductory topics in Spanish through CS Bridge in Bogotá, Colombia",
     ],
     images: ["/teaching/sl_1.png", "/teaching/sl_2.png", "/teaching/sl_3.jpeg"],
+    buttons: [
+      {
+        label: "CS 106A Website",
+        link: "https://web.stanford.edu/class/cs106a/",
+      },
+      {
+        label: "CS 106B Website",
+        link: "https://web.stanford.edu/class/cs106b/",
+      },
+    ],
   },
   {
     id: "cip",
@@ -231,6 +247,12 @@ export const teachingData = [
       "Prepared and taught weekly sections of 10 students",
     ],
     images: ["/teaching/cip.png"],
+    buttons: [
+      {
+        label: "Course Website",
+        link: "https://codeinplace.stanford.edu/",
+      },
+    ],
   },
   {
     id: "ctl",
@@ -242,6 +264,12 @@ export const teachingData = [
       "Developed materials for IDEAL Pedagogy, a program aimed at inclusivity and diversity in higher education.",
     highlights: [
       "Created asynchronous modules, designed website, and developed partnerships",
+    ],
+    buttons: [
+      {
+        label: "Program Poster",
+        link: "https://cdn.serc.carleton.edu/files/ASCN/transforming_institutions/2021/program/posters/session_a/1/melissa_ko_poster_transforming_institutions_conference.pdf",
+      },
     ],
   },
   {
