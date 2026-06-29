@@ -1,5 +1,31 @@
 export const teachingData = [
   {
+    id: "berkeley",
+    organization:
+      "University of California, Berkeley: Electrical Engineering and Computer Sciences",
+    location: "Berkeley, CA",
+    role: "Adjunct Lecturer",
+    timeline: "June 2026 - Present",
+    description:
+      "Summer co-lecturer for CS 160: UI / UX Design and Development",
+    highlights: [
+      "Designed course curriculum to teach students the fundamentals of user interface and user experience design and web development",
+      "Worked with co-lecturer to iterate on previous course curriculum and improve student experience",
+      "Taught crucial topics such as HTML, CSS, JavaScript, as well as design process including needs-finding, prototyping, and user testing",
+    ],
+    images: [
+      "/teaching/berkeley_1.png",
+      "/teaching/berkeley_2.png",
+      "/teaching/berkeley_3.png",
+    ],
+    buttons: [
+      {
+        label: "Course Website",
+        link: "https://cs160-summer-2026.github.io/website/",
+      },
+    ],
+  },
+  {
     id: "lvsf",
     organization: "Lower Valley Scholars Foundation",
     location: "El Paso, TX",
