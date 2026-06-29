@@ -98,6 +98,12 @@ export const teachingData = [
       "Supported a class of 295 students",
     ],
     images: ["/teaching/cs278.png"],
+    buttons: [
+      {
+        label: "Course Website",
+        link: "https://web.stanford.edu/class/cs278/",
+      },
+    ],
   },
   {
     id: "cs107",
@@ -132,6 +138,12 @@ export const teachingData = [
       "Supported a class of 488 students",
     ],
     images: ["/teaching/cs148.png"],
+    buttons: [
+      {
+        label: "Course Website",
+        link: "https://web.stanford.edu/class/cs148/",
+      },
+    ],
   },
   {
     id: "solelair",
