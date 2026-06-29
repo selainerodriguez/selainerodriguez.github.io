@@ -7,7 +7,7 @@ export const teachingData = [
     role: "Adjunct Lecturer",
     timeline: "June 2026 - Present",
     description:
-      "Summer co-lecturer for CS 160: UI / UX Design and Development",
+      "Summer co-lecturer for CS 160: User Interface Design and Development",
     highlights: [
       "Designed course curriculum to teach students the fundamentals of user interface and user experience design and web development",
       "Worked with co-lecturer to iterate on previous course curriculum and improve student experience",
