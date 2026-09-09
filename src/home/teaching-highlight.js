@@ -3,14 +3,14 @@ import { Image, Text, useWindowDimensions, View } from "react-native";
 import { styles } from "./styles";
 import { breakPoints } from "../styles/global-styles";
 
+import BerkeleyPic from "../images/projects/berkeley.png";
 import DinkelspielPic from "../images/projects/dinkelspiel.png";
 import CS278WebsitePic from "../images/projects/cs278Website.png";
-import SSEAClassPic from "../images/projects/sseaClass.png";
 
 const nameToPic = {
+  berkeley: BerkeleyPic,
   dinkelspiel: DinkelspielPic,
   cs278Website: CS278WebsitePic,
-  sseaClass: SSEAClassPic,
 };
 
 export default function TeachingHighlight(props) {

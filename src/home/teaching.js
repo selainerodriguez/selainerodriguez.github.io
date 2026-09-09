@@ -36,6 +36,10 @@ export default function Teaching() {
         }
       >
         <TeachingHighlight
+          photo={"berkeley"}
+          text={"Adjust Lecturer @ UC Berkeley"}
+        />
+        <TeachingHighlight
           photo={"dinkelspiel"}
           text={"Lloyd W. Dinkelspiel Award"}
         />
@@ -43,7 +47,6 @@ export default function Teaching() {
           photo={"cs278Website"}
           text={"Graduate Teaching Assistant"}
         />
-        <TeachingHighlight photo={"sseaClass"} text={"Lecturer"} />
       </View>
       <TouchableOpacity
         style={styles.moreButton}
