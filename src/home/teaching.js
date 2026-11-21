@@ -37,7 +37,7 @@ export default function Teaching() {
       >
         <TeachingHighlight
           photo={"berkeley"}
-          text={"Adjust Lecturer @ UC Berkeley"}
+          text={"Adjunct Lecturer @ UC Berkeley"}
         />
         <TeachingHighlight
           photo={"dinkelspiel"}

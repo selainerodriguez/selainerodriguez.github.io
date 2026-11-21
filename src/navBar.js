@@ -80,7 +80,7 @@ export default function NavBar({ page, scrolled = false, onLayout }) {
       </Link> */}
       <Link
         style={styles.navBarUnselected}
-        to="/Selaine-Rodriguez-CV-September-2026.pdf"
+        to="/Selaine-Rodriguez-CV-November-2026.pdf"
         target="_blank"
         download
         onClick={() => setMenuOpen(false)}
